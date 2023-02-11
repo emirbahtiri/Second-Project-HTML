@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image </title>
+</head>
+<body>
+    <h1>Images</h1>
+    <p>
+       <strong>In HTML we have 3 alternatives how to insert an image: <br>
+               1. With tag img <br>
+               2. With tag figure <br>
+               3. Wtih tag picture 
+      </strong>        
+    </p>
+    <br><br>
+    <p>
+       <strong>1.Tag img </strong> 
+    </p>
+    <img src="https://th.bing.com/th/id/OIP.myAxn6Z3VSJDB5Ao9iJItgHaHa?w=141&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Team picture">
+    <ol><strong>This is the basic way to insert an image and this tag can use some attributes like:</strong>
+        <li> src(images link)</li>
+        <li> alt(if the photo doesn't appear we write a message and mesage will show that text what we wrote)</li>
+        <li>title (when we go with mouse to image show a title)</li>
+        <li>width</li>
+        <li>height</li>
+    </ol>
+    <br><br>
+    <p>
+       <strong>2.Tag figure </strong> 
+    </p>
+    <figure>
+        <img src="https://th.bing.com/th/id/OIP.0yh5yegFWL1dmzflWMiIuwHaE8?w=211&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Team picture">
+        <figcaption>Team picture</figcaption>
+    </figure>
+    <p>
+        <strong> This tag has another tag inside (figuration) and it allows us to write a title under the photo.</strong>
+    </p>
+    <br><br>
+    <p><strong>3.Tag picture </strong></p>
+    <picture>
+        <source media="(min-width:1050px )" srcset="C:\Users\Admin\Downloads\team 1.jpg">
+        <source media="(min-width:400px)" srcset="C:\Users\Admin\Downloads\team 2.jpg">
+        <img src="https://th.bing.com/th/id/OIP.SbdgGqImyjM4P8sRyVsqEgHaE8?w=253&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+    </picture>
+    <p>  <strong>In this tag we can add some images with different 
+        size and if we open the webpage in the mobile it will show another image, in laptop another image...</strong> 
+    </p>
+     
+
+    
+    
+</body>
+</html>
